@@ -7,9 +7,9 @@
     "url": "https://github.com/Jashan66/file-compare"
   },
   "description": "Compare any file against another Git branch, with automatic .ts/.js fallback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.115.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
