@@ -1,10 +1,10 @@
 {
-  "name": "file-compare",
+  "name": "branch-file-compare",
   "displayName": "Branch File Compare",
   "publisher": "Jxsh-6",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Jashan66/file-compare"
+    "type": "git",
+    "url": "https://github.com/Jashan66/file-compare"
   },
   "description": "Compare any file against another Git branch, with automatic .ts/.js fallback",
   "version": "0.0.1",
@@ -16,7 +16,9 @@
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
-  "extensionKind": ["workspace"],
+  "extensionKind": [
+    "workspace"
+  ],
   "contributes": {
     "commands": [
       {
